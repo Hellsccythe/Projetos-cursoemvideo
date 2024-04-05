@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>países</title>
+</head>
+<body>
+    
+    <h1>Teste de nacionalidade</h1>
+    você nasceu em: <input type="text" name="tnac" id="tnac">
+    <input type="button" value="Verificar" onclick="verficar()">
+    <div id="res"></div>
+    <!--||(nnac=='brasil')-->
+    
+    <script>
+        
+
+        function verficar() {
+            var nnac = (tnac.value)
+            document.querySelector('div#res')
+            res.innerHTML= `<p>Você nasceu em ${nnac}.<p>`
+            
+            if((nnac=='Brasil')||(nnac=='brasil')) {
+                res.innerHTML+= `<p>Vocé Brasileiro.<p>`
+            }
+            
+            else{
+                res.innerHTML+= `<p>Você não é Brasileiro.<p>`
+            }
+        }
+    </script> 
+</body>
+</html>
+

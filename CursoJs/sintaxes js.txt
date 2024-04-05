@@ -1,0 +1,38 @@
+1- Conversão para string:
+String(n)
+n.toString()
+
+2- conversão para números:
+parseFloat()
+parseInt()
+
+3- exemplos de declaração de variavies:
+ex1: 'O aluno ' + nome + 'com ' + idade + ' anos tirou a nota ' + nota
+OU
+ex2: 'O aluno ${nome} com ${idade} anos tirou a nota ${nota}'
+
+4- Formatando strings:
+s.length //indica quantos caracteres tem a strin
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+s.toLowerCase() // tudo para 'minúsculas'
+ 
+5- Para colocar mais casas decimais em um número:
+n.toFixed(quantidade de casas)
+sintaxe para troca de elementos
+n.toFixed(quantidade de casas).replace('.', ',')
+
+6- Trocar uma variavel numerica para REAL
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+Mudar a variavel currency caso queira uma moeda diferente.
+
+7- operadores
+! negação
+&& conjunção (e)
+|| disjunção (ou)
+
+8-se senao
+ex: media > 7 ?'aprovado' :'Reprovado' 
+
+
+
