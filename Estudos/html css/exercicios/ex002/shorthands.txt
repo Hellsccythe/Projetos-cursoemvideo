@@ -1,0 +1,2 @@
+shorthands - background
+color>image>position>repeat>size>attachment
